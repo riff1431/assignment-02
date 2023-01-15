@@ -45,6 +45,11 @@ header {
   font-size: 20px;
 }
 
+.primary-btn:hover{
+    background: tomato;
+    transition: 0.4s ease-in;
+}
+
 .banner-texts {
   text-align: center;
   justify-content: center;
@@ -251,6 +256,47 @@ header {
     transition: 0.5s ease-in;
 }
 
+
+/* extra section start  */
+ 
+.vision-section{
+    display: flex;
+    gap: 50px;
+    margin: 50px 240px;
+    align-items: center;
+}
+
+.vision-left{
+    width: 50%;
+}
+
+.vision-left img{
+    border-radius: 25px;
+}
+
+.vision-right{
+    width: 50%;
+}
+
+.vision-description{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.vision-tittle{
+    font-weight: 900px;
+    font-size: 35px;
+    color: #424242;
+}
+
+.vision-description{
+    font-weight: 600px;
+    font-size: 21px;
+    color: #424242;
+}
+
+/* extra section end  */
+
 /* sponser section  start  */
 
 .sponser-section {
@@ -394,4 +440,20 @@ header {
     font-weight: 400;
     font-size: 12px;
   }
+
+  .vision-section{
+    margin: 0;
+    flex-direction: column;
+}
+
+
+.vision-left{
+    margin: 01px;
+}
+
+.vision-left img{
+    border-radius: 25px;
+}
+ 
+    
 }
